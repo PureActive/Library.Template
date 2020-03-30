@@ -1,6 +1,7 @@
 {
   "name": "Dev space",
   "dockerFile": "Dockerfile",
+  "postCreateCommand": "dotnet restore src",
   "extensions": [
     "ms-azure-devops.azure-pipelines",
     "ms-dotnettools.csharp",
