@@ -1,0 +1,13 @@
+{
+  "name": "Dev space",
+  "dockerFile": "Dockerfile",
+  "extensions": [
+    "ms-azure-devops.azure-pipelines",
+    "ms-dotnettools.csharp",
+    "k--kato.docomment",
+    "editorconfig.editorconfig",
+    "pflannery.vscode-versionlens",
+    "davidanson.vscode-markdownlint",
+    "dotjoshjohnson.xml"
+  ]
+}
