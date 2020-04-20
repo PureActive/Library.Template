@@ -1,3 +1,5 @@
+#!/usr/bin/env pwsh
+
 <#
 .SYNOPSIS
 Expands this template into an actual project, taking values for placeholders
@@ -146,7 +148,6 @@ try {
     Replace-Placeholders -Path "azure-pipelines.yml" -Replacements $YmlReplacements
 
     # Self destruct
-    $Invocation = (Get-Variable MyInvocation -Scope 1).Value
     git rm Expand-Template.*
     git rm :/azure-pipelines/expand-template.yml
 
